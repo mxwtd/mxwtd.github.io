@@ -59,6 +59,8 @@ textarea {
   background: #B6B1AD;
   padding: 20px;
   border-radius: 30px;
+  max-width: 543px;
+  max-height: 165px;
 }
 
 #submit {
