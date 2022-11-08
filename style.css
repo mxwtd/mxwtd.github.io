@@ -1,0 +1,75 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(56, 56, 56);
+    border-radius: 20px;
+    text-align: center;
+    background-color: #B6B1AD;
+    width: 30vw;
+    height: 40px;
+    padding: 5px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  float: left;
+  padding-right: 15px;
+  padding-left: 10px;
+  padding-top: 3px;
+}
+
+footer {
+    text-align: center;
+    background-color: #B6B1AD;
+    padding: 18px;
+    color: rgb(56, 56, 56);
+    border-radius: 30px;
+    width: 200px;
+    margin: auto;
+    width: 50%;
+}
+
+.bio, p {
+  padding: 0;
+  margin: 0;
+}
+
+.bio_intro {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+textarea {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.coffee {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.bio_section {
+  background: #B6B1AD;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+#submit {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  color: rgb(56, 56, 56);
+}
+
+textarea {
+  background-color: #B6B1AD;
+  opacity: 0.5;
+}
