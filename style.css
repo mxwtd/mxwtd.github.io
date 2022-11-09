@@ -7,10 +7,15 @@ h1 {
     width: 30vw;
     height: 40px;
     padding: 5px;
+    max-width: 170px;
+    min-width: 170px;
+    max-height: 50px;
+    min-height: 50px;
 }
 
 body {
     font-family: 'Courier New', Courier, monospace;
+    background-color: #d4cfc1;
 }
 
 img {
