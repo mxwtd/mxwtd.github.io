@@ -37,6 +37,7 @@ footer {
     width: 200px;
     margin: auto;
     width: 50%;
+    max-width: 190px;
 }
 
 .bio, p {
