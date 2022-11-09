@@ -16,8 +16,7 @@ h1 {
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #eeeeee;
-    margin-left 50px;
-    margin-right: 50px;
+    margin-left: 60px;
 }
 
 img {
@@ -37,7 +36,7 @@ footer {
     color: rgb(56, 56, 56);
     border-radius: 30px;
     width: 200px;
-    margin: auto;
+    margin: 0 auto;
     width: 50%;
     max-width: 190px;
 }
