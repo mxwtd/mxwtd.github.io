@@ -17,8 +17,6 @@ h1 {
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     margin-left: 20px;
     margin-top: 20px;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
 }
 
 h1:hover {
@@ -88,8 +86,6 @@ textarea {
   max-height: 165px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin-left: 20px;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
 }
 
 .bio_section:hover {
@@ -134,8 +130,6 @@ textarea:hover {
   width: 700px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin-left: 20px;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
 }
 
 .project_section:hover {
