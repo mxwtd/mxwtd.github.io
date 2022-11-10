@@ -2,59 +2,67 @@
 <html lang="en">
   <meta charset="utf-8">
   <meta viewport="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="Resources/CSS/style.css">
   <head>
     <title>Max's Bio</title>
   </head>
   <body>
-      <h1>Hello 👋</h1>
+      <h1>Hello !</h1>
     <div class="bio_section">
       <img class="profile_photo" src="https://media-exp1.licdn.com/dms/image/D4E03AQHYGl71ne1VsQ/profile-displayphoto-shrink_400_400/0/1667421226970?e=1673481600&v=beta&t=cGWf2TyQ6fm3ZDkISK4RoxwcJI5CWC9KPsiboxH8LqA"/>
       <h2 class="bio_intro">Bio</h2>
       <p class="bio">I’m Max, an aspiring Frontend developer, using HTML and CSS to build this Bio section. I’ve just joined Le Wagon, and cannot wait to start my bootcamp in January.</p>
     </div>
     <br>
-    <h2>Recent Projects.</h2>
-    <h4>1 - HTML</h4>
-    <ul>
-      <li>Personal Portfolio. <strong>↘</strong></li>
-      <li>Aeropress Guide Blog. <strong>↘</strong></li>
-      <li>Info document about animals. <strong>↘</strong></li>
-    </ul>
+    <div class="project_section">
+      <h2>Recent Projects.</h2>
+      <h4>1 - HTML</h4>
+      <ul>
+        <li>Personal Portfolio. <strong>↘</strong></li>
+        <li>Aeropress Guide Blog. <strong>↘</strong></li>
+        <li>Info document about animals. <strong>↘</strong></li>
+      </ul>
 
-    <h4>2 - CSS</h4>
-    <ul>
-      <li>Animated Animal. <strong>↘</strong></li>
-      <li>Product Landing Page. <strong>↘</strong></li>
-      <li>JavaScript Technical Documentation Page. <strong>↘</strong></li>
-    </ul>
+      <h4>2 - CSS</h4>
+      <ul>
+        <li>Animated Animal. <strong>↘</strong></li>
+        <li>Product Landing Page. <strong>↘</strong></li>
+        <li>JavaScript Technical Documentation Page. <strong>↘</strong></li>
+      </ul>
+    </div>
     <br>
+    <div class="flex-parent-element">
+    <div class="flex-child-element style_box fav_sites">
     <h2>Favourite Sites.</h2>
     <ul>
       <li><a href="https://noir.io">Noir.io</a><strong> ↘</strong></li>
       <li><a href="https://patricklo.com">Patrick Lo's Portfolio.</a><strong> ↘</strong></li>
       <li><a href="https://pleaseleaveon.com">Please Leave On.</a><strong> ↘</strong></li>
     </ul>
+    </div>
     <br>
-    <div class="hobbies">
-      <h2>Passions</h2>
+    <div class="flex-child-element style_box passions">
+      <h2>Passions.</h2>
       <p>I have numerous hobbies and passions, though I am naturally a creative problem solver, I love finding solutions, That's why I code.</p>
+    </div>
     </div>
     <br>
     <br>
+    <div class="form_style">
     <form>
-      <label><strong>Want to share a thought?</strong></label>
-      <br>
-      <br>
+      <h2>Want to share a thought?</h2>
         <textarea id="Share" name="Share" rows="4" cols="50">Share here!</textarea>
         <br>
-      <input id="submit" type="Submit" name="submit"/>
+        <br>
+      <button>Submit</button>
     </form>
+    </div>
   </body>
   <br>
   <br>
   <footer>
-    <p><strong>Built by: Max W.</strong></p>
-    <p class="coffee">☕️</p>
+    <!-- <p><strong>Built by: Max W.</strong></p> -->
+    <!-- <p class="coffee">☕️</p> -->
+    <p class="gradient">Built By:<br><strong>Max W.</strong><br><strong>☕️</strong></p>
   </footer>
 </html>
