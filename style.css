@@ -244,3 +244,28 @@ h1, h2, h3, h4 {
         background-position: 0% 50%;
     }
   }
+
+.css-selector {
+    background: linear-gradient(134deg, #212121, #454545, #686FFD);
+    background-size: 600% 600%;
+
+    -webkit-animation: background_gradient 7s ease infinite;
+    -moz-animation: background_gradient 7s ease infinite;
+    animation: background_gradient 7s ease infinite;
+}
+
+@-webkit-keyframes background_gradient {
+    0%{background-position:31% 0%}
+    50%{background-position:70% 100%}
+    100%{background-position:31% 0%}
+}
+@-moz-keyframes background_gradient {
+    0%{background-position:31% 0%}
+    50%{background-position:70% 100%}
+    100%{background-position:31% 0%}
+}
+@keyframes background_gradient { 
+    0%{background-position:31% 0%}
+    50%{background-position:70% 100%}
+    100%{background-position:31% 0%}
+}
